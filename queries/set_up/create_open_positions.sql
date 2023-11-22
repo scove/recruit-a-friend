@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS positions (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  position TEXT NOT NULL,
+  organization TEXT NOT NULL,
+  hyperlink TEXT,
+  is_open BOOLEAN NOT NULL
+);
