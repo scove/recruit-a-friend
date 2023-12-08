@@ -9,7 +9,7 @@ def main():
     c = create_connection(DATABASE_PATH)
     query_runner = QueryRunner(c)
     set_up(query_runner)
-    break_down(query_runner)
+    #break_down(query_runner)
     #SetterUpper(query_runner)
     #query_runner.run_query('select 1')
     #run_query(c, "SELECT 1")
